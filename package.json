@@ -10,7 +10,12 @@
 	"release": "pnpm run build && changeset publish",
 	"lint": "tsc"
   },
-  "author": "",
+  "author": "Lindsay Spencer",
+  "private": false,
+  "publishConfig": {
+	"access": "public",
+	"registry": "https://registry.npmjs.org/"
+  },
   "license": "MIT",
   "devDependencies": {
     "@changesets/cli": "^2.27.5",
