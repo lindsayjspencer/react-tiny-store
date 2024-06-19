@@ -7,7 +7,8 @@
   "module": "dist/index.mjs",
   "scripts": {
     "build": "tsup index.ts --format cjs,esm --dts",
-    "lint": "tsc"
+	"release": "pnpm run build && changeset publish",
+	"lint": "tsc"
   },
   "author": "",
   "license": "MIT",
