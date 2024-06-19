@@ -1,12 +1,13 @@
 {
   "name": "react-tiny-store",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "module": "dist/index.mjs",
   "scripts": {
-    "build": "tsup index.ts --format cjs,esm --dts"
+    "build": "tsup index.ts --format cjs,esm --dts",
+	"lint": "tsc"
   },
   "author": "",
   "license": "MIT",
